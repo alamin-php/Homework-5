@@ -57,6 +57,18 @@ RE-USEABLE CSS
 .span_1_of_2 {
 	width: 49.2%;
 }
+/* Grid 3 */
+.span_3_of_3 {
+	width: 100%; 
+}
+
+.span_2_of_3 {
+	width: 66.13%; 
+}
+
+.span_1_of_3 {
+	width: 32.26%; 
+}
 /* Grid 4 */
 .span_4_of_4 {
 	width: 100%; 
@@ -69,6 +81,18 @@ RE-USEABLE CSS
 }
 .span_1_of_4 {
 	width: 23.8%; 
+}
+
+.row:before,
+.row:after {
+    content:"";
+    display:table;
+}
+.row:after {
+    clear:both;
+}
+.row {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
 }
 .clearfix::after{
 	content: "";
@@ -168,23 +192,20 @@ header{
 .hero-area {
 	width: 100%;
 	background: #223047;
-	height: 60vh;
+	/* height: 60vh; */
 	border-top: 1px solid #4e596c;
 }
 
 .inner-hero-area{
-	position: relative;
+
 }
 
 .hero-text {
-	color: #ffffff;
-	padding: 0 90px;
-	margin-top: 200px;
-
+	padding: 120px 115px 75px 70px;
 }
 
 .hero-text h1{
-
+	color: #ffffff;
 }
 
 .hero-text p {
@@ -211,21 +232,41 @@ header{
 }
 
 .hero-image{
-
+	text-align: right;
+		position: relative;
 }
 .hero-image img {
-	width: 285px;
+	width: 250px;
 	height: auto;
 	position: absolute;
 	left: 50%;
-	top: 15%;
-	transform: translate(0%, 15%);
+	top: 10%;
+	transform: translate(0%, 10%);
 }
 
 /*=======================
 MAIN CSS  
 =========================*/
 
+/* Service Area CSS  */
+.service-area{
+	width: 100%;
+	background: #ffffff;
+	text-align: center;
+	padding: 80px 0;
+}
+.service-area h2{
+	margin: 50px 0;
+}
+.service-area .box {
+	border: 1px solid #dddddd;
+	padding: 15px;
+	border-radius: 5px;
+	box-shadow: 0px 1px 2px 0px #dddddd;
+}
+.service-area .icon{
+	width: 100px;
+}
 
 
 
