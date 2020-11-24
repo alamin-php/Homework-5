@@ -243,8 +243,7 @@ header {}
 }
 
 .menu-btn-area .btn-get-app:hover {
-    background: rgba(0, 255, 240, 0.9);
-    color: rgba(35, 49, 72, 0.9);
+    background: #36ddd5;
 }
 
 .menu-btn-area span {
@@ -294,10 +293,18 @@ header {}
     color: #233148;
     margin-right: 15px;
 }
+.hero-text .btn-area .btn-download:hover {
+    background: #36ddd5;
+}
 
 .hero-text .btn-area .btn-reach {
     background: inherit;
     border: 1px solid #fff;
+    transition: 0.3s;
+}
+.hero-text .btn-area .btn-reach:hover {
+    background: inherit;
+    border: 1px solid #36ddd5;
 }
 
 .hero-image {
@@ -435,6 +442,10 @@ MAIN CSS
 .app-top-section .text-area .btn-download {
     color: #233148;
     background: #00fff0;
+    transition: 0.3s;
+}
+.app-top-section .text-area .btn-download:hover {
+    background: #36ddd5;
 }
 
 .app-top-section .code-area .code-image {
@@ -558,11 +569,12 @@ MAIN CSS
 .app-bottom-area .image-area {
     width: 50%;
     float: left;
+    position: relative;
 }
 
 .app-bottom-area .image-area .app-image {
-    width: 500px;
-    margin-top: 70px;
+	width: 500px;
+	position: absolute;
 }
 
 .app-bottom-area {}
@@ -642,17 +654,16 @@ MAIN CSS
 .download-area .download-text .btn-dwonload {
     background: #00fff0;
     text-transform: uppercase;
-    font-size: 16px;
     color: #233148;
     margin-top: 70px;
     border: 0;
     outline: 0;
     box-shadow: 2px 5px 5px 0px #999;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .download-area .download-text .btn-dwonload:hover {
-    background: #22ebdd;
+    background: #36ddd5;
 }
 
 
@@ -734,6 +745,11 @@ MAIN CSS
     padding: 15px 80px;
     border-radius: 0;
     box-shadow: 0px 5px 10px #0cbbbb;
+    transition: 0.3s;
+}
+
+.app-add-area .btn-get-app:hover {
+    background: #36ddd5;
 }
 
 
@@ -746,7 +762,7 @@ FOOTER CSS
 
 .footer-top-area {
     width: 100%;
-    padding: 30px 0;
+    padding: 50px 0;
 }
 
 .footer-top-area h3 {
@@ -789,4 +805,44 @@ FOOTER CSS
     margin-left: 10px;
     color: #233148;
     text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.subscribe-area input[type="submit"]:hover{
+    background: #36ddd5;
+}
+
+/* FOOTER BOTTOM CSS STYLES */
+
+.footer-bottom{
+    width: 100%;
+    background: #223047;
+}
+.footer-bottom .copy-right{
+    width: 50%;
+    float: left;
+}
+.footer-bottom .copy-right p{
+    color: #00fff1;
+    font-size: 17px;
+    padding: 20px 0;
+}
+.footer-bottom .social-link{
+    width: 50%;
+    float: left;
+}
+.footer-bottom .social-link ul{
+    text-align: right;
+}
+.footer-bottom .social-link ul li{
+    display: inline-block;
+    padding: 20px 10px;
+}
+.footer-bottom .social-link ul li a{
+    color: #fff;
+    display: block;
+}
+.footer-bottom .social-link ul li a i{
+    font-size: 17px;
 }
