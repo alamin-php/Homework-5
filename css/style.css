@@ -140,7 +140,7 @@ RE-USEABLE CSS
     color: #ffffff;
     background: #444444;
     border: 0;
-    padding: 15px 30px;
+    padding: 10px 20px;
     display: inline-block;
     font-size: 14px;
     border-radius: 3px;
@@ -540,99 +540,154 @@ MAIN CSS
 
 /* Video Area CSS Style */
 
-.video-area{
-    background: linear-gradient(rgba(34,48,71,0.9),rgba(34,48,71,0.9)),url(img/vedio-bg.jpg);
+.video-area {
+    background: linear-gradient(rgba(34, 48, 71, 0.9), rgba(34, 48, 71, 0.9)), url(img/vedio-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     text-align: center;
 }
-.video-area .video-text{
+
+.video-area .video-text {
     padding: 150px 0;
     color: #ffffff;
 }
-.video-area .video-text h2{
+
+.video-area .video-text h2 {
     font-size: 17px;
 }
-.video-area .video-text .little-description{
+
+.video-area .video-text .little-description {
     text-align: center;
     width: 60%;
     margin: 0 auto;
     color: #ffffff;
+}
 
-}
-.video-area .video-text a{
-    display: inline-block;
-}   
-.video-area .video-text ul li{
+.video-area .video-text a {
     display: inline-block;
 }
+
+.video-area .video-text ul li {
+    display: inline-block;
+}
+
 .video-area .video-text ul li a i {
-	background: #00fff0;
-	display: inline-block;
-	border: none;
-	width: 70px;
-	height: 70px;
-	font-size: 20px;
-	padding: 25px 20px;
-	border-radius: 50%;
-	transition: 0.5s;
-	text-align: center;
+    background: #00fff0;
+    display: inline-block;
+    border: none;
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+    padding: 25px 20px;
+    border-radius: 50%;
+    transition: 0.5s;
+    text-align: center;
 }
 
-.video-area .video-text ul li a:hover i{
-    background:  #00fff0;
+.video-area .video-text ul li a:hover i {
+    background: #00fff0;
     transform: rotate(360deg);
     color: tomato;
 }
 
-.download-area{
+.download-area {
     background: url(img/map.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
-.download-area .download-text{
+
+.download-area .download-text {
     text-align: center;
     padding: 100px;
     color: #233148;
 }
-.download-area .download-text h2{
+
+.download-area .download-text h2 {
     font-size: 30px;
     font-weight: 500;
-    
 }
 
 .download-area .download-text .btn-dwonload {
-	background: #00fff0;
-	text-transform: uppercase;
-	font-size: 16px;
-	color: #233148;
-	margin-top: 70px;
-	border: 0;
-	outline: 0;
+    background: #00fff0;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #233148;
+    margin-top: 70px;
+    border: 0;
+    outline: 0;
     box-shadow: 2px 5px 5px 0px #999;
     transition: 0.5s;
 }
 
 .download-area .download-text .btn-dwonload:hover {
-	background: #22ebdd;
+    background: #22ebdd;
 }
 
 
 /* QUOTE AREA CSS STYLE */
-.quote-area{
+
+.quote-area {
     width: 100%;
     background: #223047;
 }
-.quote-area .little-description{
+
+.quote-area .little-description {
     margin: 100px auto;
     font-size: 18px;
     color: #00fff1;
 }
 
+
 /* APP ADDVIDISMENT AREA CSS STYLES */
 
+.app-add-area {
+    padding: 30px 0;
+}
+
+.app-add-area .phone-area {
+    width: 50%;
+    float: left;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.app-add-area .phone-area img {
+    width: 350px;
+    height: auto;
+}
+
+.app-add-area .add-text-area {
+    width: 50%;
+    float: left;
+    text-align: left;
+    margin-top: 100px;
+}
+
+.app-add-area .add-text-area h2 {
+    font-size: 40px;
+    color: #233148;
+    font-weight: 500;
+}
+
+.app-add-area .add-text-area .btn-playStore {
+    background: url(img/playStore-bg.png);
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: center center;
+    width: 180px;
+    height: 50px;
+}
+
+.app-add-area .add-text-area .btn-iStore {
+    background: url(img/iStore-bg.png);
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: center center;
+    width: 180px;
+    height: 50px;
+}
 
 
 /*=======================
