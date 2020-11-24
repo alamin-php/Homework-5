@@ -538,6 +538,101 @@ MAIN CSS
 .app-bottom-area {}
 
 
+/* Video Area CSS Style */
+
+.video-area{
+    background: linear-gradient(rgba(34,48,71,0.9),rgba(34,48,71,0.9)),url(img/vedio-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
+.video-area .video-text{
+    padding: 150px 0;
+    color: #ffffff;
+}
+.video-area .video-text h2{
+    font-size: 17px;
+}
+.video-area .video-text .little-description{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    color: #ffffff;
+
+}
+.video-area .video-text a{
+    display: inline-block;
+}   
+.video-area .video-text ul li{
+    display: inline-block;
+}
+.video-area .video-text ul li a i {
+	background: #00fff0;
+	display: inline-block;
+	border: none;
+	width: 70px;
+	height: 70px;
+	font-size: 20px;
+	padding: 25px 20px;
+	border-radius: 50%;
+	transition: 0.5s;
+	text-align: center;
+}
+
+.video-area .video-text ul li a:hover i{
+    background:  #00fff0;
+    transform: rotate(360deg);
+    color: tomato;
+}
+
+.download-area{
+    background: url(img/map.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.download-area .download-text{
+    text-align: center;
+    padding: 100px;
+    color: #233148;
+}
+.download-area .download-text h2{
+    font-size: 30px;
+    font-weight: 500;
+    
+}
+
+.download-area .download-text .btn-dwonload {
+	background: #00fff0;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #233148;
+	margin-top: 70px;
+	border: 0;
+	outline: 0;
+    box-shadow: 2px 5px 5px 0px #999;
+    transition: 0.5s;
+}
+
+.download-area .download-text .btn-dwonload:hover {
+	background: #22ebdd;
+}
+
+
+/* QUOTE AREA CSS STYLE */
+.quote-area{
+    width: 100%;
+    background: #223047;
+}
+.quote-area .little-description{
+    margin: 100px auto;
+    font-size: 18px;
+    color: #00fff1;
+}
+
+
+
 /*=======================
 FOOTER CSS  
 =========================*/
