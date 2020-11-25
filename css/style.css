@@ -39,11 +39,13 @@ h3 {
     margin: 15px 0;
     font-weight: 500;
 }
-h2{
+
+h2 {
     font-size: 30px;
     color: #233148;
 }
-p{
+
+p {
     font-size: 17px;
 }
 
@@ -293,6 +295,7 @@ header {}
     color: #233148;
     margin-right: 15px;
 }
+
 .hero-text .btn-area .btn-download:hover {
     background: #36ddd5;
 }
@@ -302,6 +305,7 @@ header {}
     border: 1px solid #fff;
     transition: 0.3s;
 }
+
 .hero-text .btn-area .btn-reach:hover {
     background: inherit;
     border: 1px solid #36ddd5;
@@ -444,6 +448,7 @@ MAIN CSS
     background: #00fff0;
     transition: 0.3s;
 }
+
 .app-top-section .text-area .btn-download:hover {
     background: #36ddd5;
 }
@@ -573,8 +578,9 @@ MAIN CSS
 }
 
 .app-bottom-area .image-area .app-image {
-	width: 500px;
-	position: absolute;
+    width: 500px;
+    position: absolute;
+    top: 35px;
 }
 
 .app-bottom-area {}
@@ -597,6 +603,8 @@ MAIN CSS
 
 .video-area .video-text h2 {
     font-size: 17px;
+    color: #fff;
+    margin: 50px 0;
 }
 
 .video-area .video-text .little-description {
@@ -784,22 +792,22 @@ FOOTER CSS
     padding: 30px 0;
 }
 
-.subscribe-area p{
+.subscribe-area p {
     color: #97a4be;
 }
 
-.subscribe-area form{
+.subscribe-area form {
     margin: 50px auto;
 }
 
-.subscribe-area input{
+.subscribe-area input {
     border: 0;
     background: #f5f6fa;
     padding: 12px 10px;
     width: 40%;
 }
 
-.subscribe-area input[type="submit"]{
+.subscribe-area input[type="submit"] {
     background: #00fff1;
     width: 15%;
     margin-left: 10px;
@@ -809,40 +817,48 @@ FOOTER CSS
     transition: 0.3s;
 }
 
-.subscribe-area input[type="submit"]:hover{
+.subscribe-area input[type="submit"]:hover {
     background: #36ddd5;
 }
 
+
 /* FOOTER BOTTOM CSS STYLES */
 
-.footer-bottom{
+.footer-bottom {
     width: 100%;
     background: #223047;
 }
-.footer-bottom .copy-right{
+
+.footer-bottom .copy-right {
     width: 50%;
     float: left;
 }
-.footer-bottom .copy-right p{
+
+.footer-bottom .copy-right p {
     color: #00fff1;
     font-size: 17px;
     padding: 20px 0;
 }
-.footer-bottom .social-link{
+
+.footer-bottom .social-link {
     width: 50%;
     float: left;
 }
-.footer-bottom .social-link ul{
+
+.footer-bottom .social-link ul {
     text-align: right;
 }
-.footer-bottom .social-link ul li{
+
+.footer-bottom .social-link ul li {
     display: inline-block;
     padding: 20px 10px;
 }
-.footer-bottom .social-link ul li a{
+
+.footer-bottom .social-link ul li a {
     color: #fff;
     display: block;
 }
-.footer-bottom .social-link ul li a i{
+
+.footer-bottom .social-link ul li a i {
     font-size: 17px;
 }
