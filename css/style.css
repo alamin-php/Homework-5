@@ -145,49 +145,6 @@ RE-USEABLE CSS
     width: 18.72%;
 }
 
-.row:before,
-.row:after {
-    content: "";
-    display: table;
-}
-
-.row:after {
-    clear: both;
-}
-
-.row {
-    zoom: 1;
-    /* For IE 6/7 (trigger hasLayout) */
-}
-
-.clearfix::after {
-    content: "";
-    display: block;
-    clear: both;
-    height: 0;
-    visibility: hidden;
-}
-
-.btn {
-    color: #ffffff;
-    background: #444444;
-    border: 0;
-    padding: 10px 20px;
-    display: inline-block;
-    font-size: 14px;
-    border-radius: 3px;
-    text-align: center;
-    cursor: pointer;
-}
-
-.little-description {
-    color: #97a4be;
-    font-size: 14px;
-    line-height: 1.5;
-    margin: 30px 0;
-    width: 50%;
-    text-align: left;
-}
 
 
 /*=======================
@@ -197,10 +154,11 @@ HEADER CSS
 
 /* Navigation CSS Style */
 
-header {}
+header {
+    background: #223047;
+}
 
 .navigation-area {
-    background: #223047;
     padding: 3px 0;
 }
 
@@ -236,17 +194,6 @@ header {}
     text-align: right;
 }
 
-.menu-btn-area .btn-get-app {
-    background: #00fff0;
-    color: #233148;
-    font-size: 14px;
-    font-weight: 400;
-    transition: 0.3s;
-}
-
-.menu-btn-area .btn-get-app:hover {
-    background: #36ddd5;
-}
 
 .menu-btn-area span {
     margin-left: 15px;
@@ -264,9 +211,8 @@ header {}
 /* Hero Area CSS */
 
 .hero-area {
-    width: 100%;
     background: #223047;
-    /* height: 60vh; */
+    height: 60vh;
     border-top: 1px solid #4e596c;
 }
 
@@ -313,16 +259,11 @@ header {}
 
 .hero-image {
     text-align: right;
-    position: relative;
 }
 
 .hero-image img {
     width: 250px;
     height: auto;
-    position: absolute;
-    left: 50%;
-    top: 10%;
-    transform: translate(0%, 10%);
 }
 
 
